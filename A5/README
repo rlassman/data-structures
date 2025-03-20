@@ -1,0 +1,5 @@
+Name: Rebecca Lassman
+How to run:
+How to compile:
+Known bugs/limitations: none
+Discussion: There was a significant speed up when running the assignment 5 version compared to the assignment 2 version. The real time for assignment 5 was 0m0.374s, while assignment 2’s real time was 0m13.933s. That is a 0m13.559s difference, which was a noticeable speedup when running the two assignments. Similarly, assignment 5’s user time was 0m1.253s, while assignment 2’s user time was 0m14.833s. The system time did not change much; assignment 5’s was 0m0.138s and assignment 2’s was 0m0.181s.
