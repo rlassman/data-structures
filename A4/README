@@ -1,0 +1,6 @@
+Name: Rebecca Lassman 
+How to compile: 
+How to run: 
+Known bugs/limitations: none (did not do extra credit) 
+Late submission: Professor Xu gave me an extension so that’s why I submitted a day late. 
+Write-up: My design for TwoStacksQueue has two stacks as instance variables. Stack1 is the main stack that stores the elements in the order they are added. Stack2 is only used in the dequeue, first, and toString methods to store the elements in reverse in order to access the first element that was added. Thus, enqueue simply pushes element e onto stack1, and is therefore always O(1) operations. Dequeue requires two loops. The first loop pops all the elements off stack1 and pushes them onto stack2. It then pops the top element of stack2 off to be returned at the end. The second loop then pops all the remaining elements off stack2 and pushes them back onto stack1. Because the two loops are not nested, dequeue always runs in O(n) operations. 
